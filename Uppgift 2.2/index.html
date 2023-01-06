@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP FORM</title>
+</head>
+
+
+<body>   
+
+    <form action="index.php" method="POST">
+        <input type="text" name="username" placeholder="Username"/>
+        <p>
+            <input type="password" name="password" placeholder="password" />
+        </p>
+
+        <p>
+            <textarea name="text_area" rows="10" cols="10">Message: </textarea>
+        </p>
+        <p>
+            <input type="checkbox" name="check_box" value="ON" checked="checked" />Save
+        </p>
+        <p>
+            <input type="radio" value="Yes" name="radio_button" checked="checked" />Yes
+            <input type="radio" value="No" name="radio_button" />No
+        </p>
+        <p>
+            <p>
+            <input type="submit" value="Send" name="button"/>
+        </p>
+    </form>
+
+    <form action="index.php" method="GET">
+        <p>
+            <input type="e-mail" name="e-mail" placeholder="Enter E-mail" />
+        </p>
+        <p>
+            <input type="submit" value="Send-email" name="button2"/>
+       </form>
+
+</body>
+</html>
